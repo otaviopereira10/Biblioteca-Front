@@ -1,0 +1,154 @@
+.navbar {
+    background-color: #800d66;
+    padding: 10px 20px;
+  
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      color: white;
+  
+      .logo {
+        width: 40px;
+        margin-right: 10px;
+      }
+    }
+.logo2{
+    height: 200px;
+    width: 200px;
+}
+    .nav-link {
+      color: #f8f9fa;
+      font-size: 1rem;
+      margin: 0 10px;
+  
+      &:hover {
+        color: #ffd700;
+      }
+    }
+  
+    .icons {
+      display: flex;
+      gap: 15px;
+  
+      i {
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+  
+        &:hover {
+          color: #ffd700;
+        }
+      }
+    }
+  }
+  
+  body {
+    background-color: #c381a7;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    max-height: 100px;
+    background-color: #c381a7;
+  
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+  
+      img {
+        height: 200px;
+      }
+  
+      h1 {
+        margin: 0;
+        font-size: 20px;
+      }
+  
+      p {
+        font-size: 12px;
+        margin: 0;
+      }
+    }
+  
+    .search-container {
+      flex: 1;
+      margin: 0 5px;
+  
+      input {
+        width: 80%;
+        padding: 5px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #333;
+      }
+    }
+  
+    .icons {
+      display: flex;
+      gap: 15px;
+  
+      i {
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .add-book {
+    margin: 20px auto;
+    text-align: center;
+  
+    input {
+      padding: 10px;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      font-size: 14px;
+      color: #333;
+    }
+  
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #fff;
+      color: #c381a7;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  
+  #searchResults {
+    margin: 20px auto;
+    width: 50%;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    overflow-y: auto;
+    max-height: 200px;
+    padding: 10px;
+  
+    div {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+    }
+  
+    div:hover {
+      background-color: #f0f0f0;
+    }
+  
+    div:last-child {
+      border-bottom: none;
+    }
+  }
+  

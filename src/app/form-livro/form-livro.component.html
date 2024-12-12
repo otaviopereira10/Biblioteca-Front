@@ -1,0 +1,23 @@
+<div class="product-form-container">
+    <h2>Publicar Livro</h2>
+  <!-- Adiciona o evento (ngSubmit) -->
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="title">Nome</label>
+        <input type="text" id="title" name="title" [(ngModel)]="livro.title" placeholder="Digite o título" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="price">Preço</label>
+        <input type="text" id="price" name="price" [(ngModel)]="livro.price" placeholder="Digite o preço do livro" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="imageUrl">URL da Imagem</label>
+        <input type="text" id="imageUrl" name="imageUrl" [(ngModel)]="livro.imageUrl" placeholder="Insira a URL da imagem" required />
+      </div>
+  
+      <button type="submit">Publicar</button>
+    </form>
+  </div>
+  

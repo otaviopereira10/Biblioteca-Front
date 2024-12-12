@@ -1,0 +1,51 @@
+.container {
+    h3 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #800d66;
+    }
+  }
+  
+  .card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  
+    .card-img-top {
+      height: auto;
+  
+      width: auto;     
+      object-fit: cover;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+  
+    .card-body {
+      .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #4b004b;
+      }
+  
+      .card-text {
+        font-size: 1rem;
+        color: #666;
+      }
+  
+      .btn {
+        background-color: #800d66;
+        border: none;
+  
+        &:hover {
+          background-color: #4b004b;
+        }
+      }
+    }
+  }
+  

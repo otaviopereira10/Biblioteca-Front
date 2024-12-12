@@ -1,0 +1,16 @@
+.carousel {
+    margin-top: 20px;
+
+    .carousel-item img {
+        max-height: 400px; // Limita o tamanho máximo sem distorcer
+        width: auto;      // Mantém a largura proporcional
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+    }
+}
